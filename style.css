@@ -187,6 +187,8 @@ body {
 
 #product1 {
     text-align: center;
+    margin-top: 20px;
+    padding: 20px;
 }
 
 #product1 .pro-container {
@@ -216,6 +218,10 @@ body {
     width: 100%;
     /* object-fit: cover; */
     border-radius: 20px;
+    transition: all 0.3s ease;
+}
+#product1 .pro img:hover{
+    scale: 1.05;
 }
 
 #product1 .pro .des {
@@ -536,6 +542,74 @@ footer {
     scale: 1.1;
 }
 
+/* shop page */
+#page-header{
+    background: url("img/banner/b1.jpg");
+    background-position: center;
+    height: 30vh;
+    width: 100%;
+    background-size: cover; 
+    /* padding: 0 80px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#page-header h2,
+#page-header p{
+    color: white;
+}
+
+
+/* page-initiation */
+#page-initiation{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#page-initiation a{
+    color: white;
+    height: 20px;
+    width: 20px;
+    background-color: #113ebb;
+    border: #081845;
+    text-decoration: none;
+    padding: 5px 5px;
+    font-weight: 800;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.5s all ease;
+}
+
+#page-initiation a:hover{
+    text-decoration: underline;
+    color: blue;
+    background-color: white;
+}
+
+
+/* sproducts page*/
+#prod-details{
+    border: 2px solid red;
+}
+
+#prod-details #MainImg{
+    width: 40%;
+    margin-right: 50px;
+
+}
+#prod-details .small-img-group{
+    display: flex;
+    justify-content: space-between;
+
+}
+#prod-details .small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
 
 /* media queries */
 @media (min-width:430px) and (max-width:768px){
@@ -598,7 +672,7 @@ footer {
         transition: 1s all ease;
     }
     #navbar.active{
-        right:0px;
+        right: -100px;
     }
     #mobile{
         display: flex;
@@ -641,6 +715,16 @@ footer {
     }
     #banner button{
         font-size: 1rem;
+    }
+    #product1 .pro-container .pro img{
+        height: 200px;
+        width: auto;
+    }
+    #product1 .pro-container .pro span{
+        font-size: 15px;
+    }
+    #product1 .pro-container .pro h5{
+        font-size: 20px;
     }
     #sm-banner .banner-box{
         min-width: 100px;

@@ -1,399 +1,1262 @@
-<!DOCTYPE html>
-<html lang="en">
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <title>Shop online</title>
-</head>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
 
-<body>
-    <section id="header">
-        <a href="#"><img src="img/logo.png" alt=""></a>
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
 
-        <div>
-            <ul id="navbar">
-                <li><a class='active' href="index.html">Home</a></li>
-                <li><a href="shop.html">Shop</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="about.html">About us</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
-                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
-            </ul>
-        </div>
-        <div id="mobile">
-            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
-            <i id="bar" class="fas fa-outdent"></i>
-        </div>
-    </section>
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
 
-    <div id="hero">
-        <h4>Trade-in-offer</h4>
-        <h2>Super Value Deals</h2>
-        <h1>On all products</h1>
-        <p>Save more with coupons upto 70% off!</p>
-        <button>Shop Now</button>
-    </div>
+h4 {
+    font-size: 20px;
+    color: #222;
+}
 
-    <div id="feature">
-        <div class="fe-box">
-            <img src="img/features/f1.png" alt="">
-            <h6>Free Shipping</h6>
-        </div>
-        <div class="fe-box">
-            <img src="img/features/f2.png" alt="">
-            <h6>Online Order</h6>
-        </div>
-        <div class="fe-box">
-            <img src="img/features/f3.png" alt="">
-            <h6>Save money</h6>
-        </div>
-        <div class="fe-box">
-            <img src="img/features/f4.png" alt="">
-            <h6>Promotions</h6>
-        </div>
-        <div class="fe-box">
-            <img src="img/features/f5.png" alt="">
-            <h6>Happy Sell</h6>
-        </div>
-    </div>
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
 
-    <div id="product1">
-        <h2>Featured Product</h2>
-        <p>Summer collection new modren design</p>
-        <div class="pro-container">
-            <div class="pro">
-                <img src="img/products/f1.jpg" alt="">
-                <div class="des">
-                    <span>adidas</span>
-                    <h5>cartoon astronaut T-shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#" class="fas fa-shopping-cart cart"></a>
-            </div>
-            <div class="pro">
-                <img src="img/products/f2.jpg" alt="">
-                <div class="des">
-                    <span>adidas</span>
-                    <h5>cartoon astronaut T-shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#" class="fas fa-shopping-cart cart"></a>
-            </div>
-            <div class="pro">
-                <img src="img/products/f3.jpg" alt="">
-                <div class="des">
-                    <span>adidas</span>
-                    <h5>cartoon astronaut T-shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#" class="fas fa-shopping-cart cart"></a>
-            </div>
-            <div class="pro">
-                <img src="img/products/f4.jpg" alt="">
-                <div class="des">
-                    <span>adidas</span>
-                    <h5>cartoon astronaut T-shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#" class="fas fa-shopping-cart cart"></a>
-            </div>
-            <div class="pro">
-                <img src="img/products/f5.jpg" alt="">
-                <div class="des">
-                    <span>adidas</span>
-                    <h5>cartoon astronaut T-shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#" class="fas fa-shopping-cart cart"></a>
-            </div>
-            <div class="pro">
-                <img src="img/products/f6.jpg" alt="">
-                <div class="des">
-                    <span>adidas</span>
-                    <h5>cartoon astronaut T-shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#" class="fas fa-shopping-cart cart"></a>
-            </div>
-            <div class="pro">
-                <img src="img/products/f7.jpg" alt="">
-                <div class="des">
-                    <span>adidas</span>
-                    <h5>cartoon astronaut T-shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#" class="fas fa-shopping-cart cart"></a>
-            </div>
-            <div class="pro">
-                <img src="img/products/f8.jpg" alt="">
-                <div class="des">
-                    <span>adidas</span>
-                    <h5>cartoon astronaut T-shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#" class="fas fa-shopping-cart cart"></a>
-            </div>
-        </div>
-    </div>
+p {
+    color: #465b52;
+    font-size: 16px;
+    margin: 15px 0 20px 0;
+}
 
-    <div id="banner">
-        <h4>Repair service</h4>
-        <h2>Up to <span>70% off</span> on all T-shirt & accessories</h2>
-        <button>Explore</button>
-    </div>
+.section-p1 {
+    padding: 40px 80px;
+}
 
-    <div id="product1">
-        <h2>New Arrivals</h2>
-        <p>Summer collection new modren design</p>
-        <div class="pro-container">
-            <div class="pro">
-                <img src="img/products/n1.jpg" alt="">
-                <div class="des">
-                    <span>adidas</span>
-                    <h5>cartoon astronaut T-shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#" class="fas fa-shopping-cart cart"></a>
-            </div>
-            <div class="pro">
-                <img src="img/products/n2.jpg" alt="">
-                <div class="des">
-                    <span>adidas</span>
-                    <h5>cartoon astronaut T-shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#" class="fas fa-shopping-cart cart"></a>
-            </div>
-            <div class="pro">
-                <img src="img/products/n3.jpg" alt="">
-                <div class="des">
-                    <span>adidas</span>
-                    <h5>cartoon astronaut T-shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#" class="fas fa-shopping-cart cart"></a>
-            </div>
-            <div class="pro">
-                <img src="img/products/n4.jpg" alt="">
-                <div class="des">
-                    <span>adidas</span>
-                    <h5>cartoon astronaut T-shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#" class="fas fa-shopping-cart cart"></a>
-            </div>
-            <div class="pro">
-                <img src="img/products/n5.jpg" alt="">
-                <div class="des">
-                    <span>adidas</span>
-                    <h5>cartoon astronaut T-shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#" class="fas fa-shopping-cart cart"></a>
-            </div>
-            <div class="pro">
-                <img src="img/products/n6.jpg" alt="">
-                <div class="des">
-                    <span>adidas</span>
-                    <h5>cartoon astronaut T-shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#" class="fas fa-shopping-cart cart"></a>
-            </div>
-            <div class="pro">
-                <img src="img/products/n7.jpg" alt="">
-                <div class="des">
-                    <span>adidas</span>
-                    <h5>cartoon astronaut T-shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#" class="fas fa-shopping-cart cart"></a>
-            </div>
-            <div class="pro">
-                <img src="img/products/n8.jpg" alt="">
-                <div class="des">
-                    <span>adidas</span>
-                    <h5>cartoon astronaut T-shirts</h5>
-                    <div class="star">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h4>$78</h4>
-                </div>
-                <a href="#" class="fas fa-shopping-cart cart"></a>
-            </div>
-        </div>
-    </div>
+.section-m1 {
+    margin: 40px 0;
+}
 
-    <div id="sm-banner" class="section-p1">
-        <div class="banner-box">
-            <h4>crazy deals</h4>
-            <h2>buy1 get 1 free</h2>
-            <span>best classic deal is on sale on cara</span>
-            <button>Learn more</button>
-        </div>
-        <div class="banner-box">
-            <h4>spring/summer</h4>
-            <h2>upcoming season</h2>
-            <span>best classic deal is on sale on cara</span>
-            <button>Collection</button>
-        </div>
-    </div>
+body {
+    width: 100%
+}
 
-    <div id="banner3" class="section-p1">
-        <div class="banner-box">
-            <h2>season sale</h2>
-            <h3>winer collection 50% off</h3>
-        </div>
-        <div class="banner-box">
-            <h2>new footwear collection</h2>
-            <h3>srping/summer</h3>
-        </div>
-        <div class="banner-box">
-            <h2>t-shirts</h2>
-            <h3>new trendy prints</h3>
-        </div>
-    </div>
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #e3e6f3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
 
-    <div id="newsletter">
-        <div class="news-text">
-            <h4>Sign Up for newsletter</h4>
-            <P>get email updated about our offers</P>
-        </div>
-        <div class="form">
-            <input type="text" placeholder="your email address">
-            <button>sign up</button>
-        </div>
-    </div>
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-    <footer>
-        <div class="footer-content">
-            <h3>Foolish Developer</h3>
-            <p>If you are reading till here, i hope u like the webiste. this webisteis built in 2 weeks by apoorv jain. thanks for passing by!</p>
-            <ul class="socials">
-                <li><a href="#"><i class="fa-brands fa-facebook"></i></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-google-plus"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-linkedin-square"></i></a></li>
-            </ul>
-        </div>
-    </footer>
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
 
-    <script src="script.js"></script>
-</body>
+#navbar li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
 
-</html>
+#navbar li a:hover,
+#navbar li a.active {
+    color: #113ebb;
+}
+
+#navbar li a:hover::after,
+#navbar li a.active::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: #113ebb;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+#mobile {
+    display: none;
+}
+
+#close {
+    display: none;
+}
+
+#hero {
+    background: url("img/hero4.png");
+    background-position: center;
+    height: 95vh;
+    width: 100%;
+    background-size: cover;
+    padding: 0 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#hero h4 {
+    padding-bottom: 15px;
+}
+
+#hero h1 {
+    color: #113ebb;
+}
+
+#hero button {
+    background-image: url("img/button.png");
+    background-color: transparent;
+    color: #113ebb;
+    border: none;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+#feature .fe-box {
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.3);
+    border: 2px solid wheat;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+#feature .fe-box:hover {
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+
+#feature .fe-box img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#feature .fe-box h6 {
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #113ebb;
+    background-color: #E7CEB4;
+}
+
+#feature .fe-box:nth-child(2) h6 {
+    background-color: #cdebbc;
+}
+
+#feature .fe-box:nth-child(3) h6 {
+    background-color: #cdd4f8;
+}
+
+#feature .fe-box:nth-child(4) h6 {
+    background-color: #f6dbf6;
+}
+
+#feature .fe-box:nth-child(5) h6 {
+    background-color: #fff2e5;
+}
+
+#product1 {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#product1 .pro-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#product1 .pro {
+    position: relative;
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    transition: all 0.2s ease;
+}
+
+#product1 .pro:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#product1 .pro img {
+    width: 100%;
+    /* object-fit: cover; */
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+#product1 .pro img:hover {
+    scale: 1.02;
+}
+
+#product1 .pro .des {
+    text-align: start;
+    padding: 10px 0;
+}
+
+#product1 .pro .des span {
+    font-size: 1rem;
+    color: grey;
+}
+
+#product1 .pro .des h5 {
+    font-size: 1.5rem;
+    padding: 5px 0;
+}
+
+#product1 .pro .des i {
+    color: #dfdf03;
+    font-size: 1rem;
+}
+
+#product1 .pro .des h4 {
+    color: #113ebb;
+    font-size: 1.5rem;
+    padding: 10px 0;
+}
+
+#product1 a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    /* border:2px solid red; */
+    border-radius: 50px;
+    background-color: rgb(235, 226, 226);
+    color: blue;
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+    transition: all ease 0.4s;
+}
+
+#product1 a:hover {
+    background-color: #113ebb;
+    color: white;
+    scale: 1.1;
+}
+
+#banner {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(img/banner/b2.jpg);
+    /* padding: 20px; */
+    gap: 35px;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner h4 {
+    color: white;
+    font-size: 3rem;
+}
+
+#banner h2 {
+    color: white;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+#banner h2 span {
+    color: red;
+}
+
+#banner button {
+    font-size: 2rem;
+    padding: 20px 30px;
+    background-color: #113ebb;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.4s all ease;
+}
+
+#banner button:hover {
+    color: #113ebb;
+    background-color: white;
+    scale: 1.1;
+}
+
+#sm-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+#sm-banner .banner-box {
+    height: 50vh;
+    min-width: 580px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+    background-image: url(img/banner/b17.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#sm-banner .banner-box:last-child {
+    background-image: url(img/banner/b10.jpg);
+}
+
+#sm-banner .banner-box h4 {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#sm-banner .banner-box h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#sm-banner .banner-box span {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+#sm-banner .banner-box button {
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 10px 20px;
+    transition: 0.4s all ease;
+    cursor: pointer;
+}
+
+#sm-banner .banner-box button:hover {
+    background-color: #113ebb;
+    scale: 1.1;
+}
+
+#banner3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+#banner3 .banner-box {
+    height: 30vh;
+    min-width: 380px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+    background-image: url(img/banner/b7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#banner3 .banner-box h2 {
+    font-weight: 1000;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: white;
+}
+
+#banner3 .banner-box h3 {
+    font-size: 18px;
+    color: red;
+    opacity: 0.7;
+}
+
+#banner3 .banner-box:nth-child(2) {
+    background-image: url(img/banner/b4.jpg);
+}
+
+#banner3 .banner-box:nth-child(3) {
+    background-image: url(img/banner/b18.jpg);
+}
+
+#newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    background-image: url(img/banner/b14.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #081845;
+    padding: 50px;
+}
+
+#newsletter .news-text h4 {
+    font-size: 25px;
+    color: white;
+    font-weight: 800;
+}
+
+#newsletter .news-text p {
+    font-size: 25px;
+    color: white;
+    font-weight: 300;
+}
+
+#newsletter .form {
+    display: flex;
+    align-items: center;
+}
+
+#newsletter input {
+    padding: 0 1.25rem;
+    height: 3.125rem;
+    font-size: 14px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid black;
+    outline: none;
+}
+
+#newsletter .form button {
+    height: 3.125rem;
+    padding: 10px;
+    font-size: 15px;
+    width: 40%;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    background: linear-gradient(90deg, white 0%, #113ebb 100%);
+    border: 1px solid black;
+    transition: 0.7s all ease;
+}
+
+#newsletter .form button:hover {
+    scale: 1.1;
+    color: #113ebb;
+}
+
+
+footer {
+    background: linear-gradient(#081845, black);
+    height: auto;
+    padding-top: 40px;
+    color: #fff;
+    border-top: 1px solid black;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+
+}
+
+.socials a:hover i {
+    color: aqua;
+    scale: 1.1;
+}
+
+/* shop page */
+#page-header {
+    background: url("img/banner/b1.jpg");
+    background-position: center;
+    height: 30vh;
+    width: 100%;
+    background-size: cover;
+    /* padding: 0 80px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#page-header h2,
+#page-header p {
+    color: white;
+}
+
+
+/* page-initiation */
+#page-initiation {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#page-initiation a {
+    color: white;
+    height: 20px;
+    width: 20px;
+    background-color: #113ebb;
+    border: #081845;
+    text-decoration: none;
+    padding: 5px 5px;
+    font-weight: 800;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.5s all ease;
+}
+
+#page-initiation a:hover {
+    text-decoration: underline;
+    color: blue;
+    background-color: white;
+}
+
+
+/* sproducts page*/
+#prod-details {
+    overflow-x: hidden;
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 6vw;
+}
+
+#prod-details #MainImg {
+    width: 30vw;
+    margin-bottom: 5px;
+
+}
+
+#prod-details .small-img-group {
+    max-width: 30vw;
+    display: flex;
+    overflow-x: hidden;
+    align-items: center;
+    gap: 10px;
+
+}
+
+#prod-details .small-img-col img {
+    height: 14vh;
+    cursor: pointer;
+}
+
+.single-prod-details {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+}
+
+.single-prod-details h6 {
+    margin: 2rem 0;
+    font-size: 1rem;
+}
+
+.single-prod-details h4 {
+    margin: 2rem 0;
+}
+
+.single-prod-details h2 {
+    margin: 1rem 0;
+}
+
+.single-prod-details select {
+    padding: 10px 10px;
+    width: 150px;
+    margin: 1rem 0;
+}
+
+.single-prod-details select option {
+    padding: 10px 10px;
+}
+
+.single-prod-details input {
+    padding: 10px 10px;
+    width: 150px;
+}
+
+.single-prod-details button {
+    background-color: #088178;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    padding: 10px 10px;
+    width: 150px;
+    cursor: pointer;
+    margin: 1rem 0;
+    border-radius: 5px;
+    transition: all ease 0.5s;
+}
+
+.single-prod-details button:hover {
+    scale: 1.1;
+}
+
+.single-prod-details h4 {
+    margin: 1rem 0;
+}
+
+.single-prod-details span {
+    margin: 1rem 0;
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 1.25rem;
+}
+
+/* blog page */
+#blog {
+    display: flex;
+    flex-direction: column;
+}
+
+#page-header.blog-header {
+    background-image: url('img/banner/b19.jpg');
+}
+
+#blog .blog-box {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+#blog h1 {
+    font-size: 5rem;
+    opacity: 0.4;
+    margin-left: 8%;
+    margin-top: 3rem;
+    margin-bottom: -1rem;
+}
+
+#blog .blog-box .blog-img {
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    overflow: hidden;
+    z-index: 100;
+    margin-left: 5%;
+}
+
+#blog .blog-box .blog-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+    margin-top: calc(50% - 400px);
+}
+
+#blog .blog-box .blog-details {
+    margin-left: 5%;
+}
+
+#blog .blog-box .blog-details h4 {
+    font-size: 2rem;
+}
+
+#blog .blog-box .blog-details p {
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    width: 80%;
+}
+
+#blog .blog-box .blog-details a {
+    font-size: 0.8rem;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#blog .blog-box .blog-details a:hover {
+    text-decoration: underline;
+}
+
+/* about page  */
+#page-header.about-header {
+    background-image: url(img/about/banner.png);
+}
+
+#about-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7rem;
+    gap: 30px;
+}
+
+#about-head img {
+    width: 50%;
+}
+
+#about-head .about-text {
+    width: 50%;
+}
+
+#about-head .about-text h1 {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+
+#about-head .about-text p {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    line-height: 2rem;
+}
+
+#about-head .about-text a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    transition: 0.5 all ease;
+}
+
+#about-head .about-text a:hover {
+    text-decoration: underline;
+    scale: 1.1;
+}
+
+#about-head .about-text marquee {
+    margin-top: 2rem;
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    color: white;
+}
+
+#about-app {
+    text-align: center;
+    padding: 0 0 4rem 0;
+}
+
+#about-app h1 {
+    text-align: center;
+}
+
+#about-app video {
+    width: 50vw;
+    border-radius: 40px;
+}
+
+/* contact us page */
+#contact-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 4rem;
+    gap: 20px;
+
+}
+
+#contact-details .contact-text span {
+    text-transform: uppercase;
+    font-size: 1rem;
+    opacity: 0.7;
+}
+
+#contact-details .contact-text h1 {
+    margin: 2rem 0;
+    font-size: 2rem;
+    line-height: 2rem;
+    width: 80%;
+}
+
+#contact-details .contact-text h2 {
+    text-decoration: underline;
+    margin: 2rem 0;
+}
+
+#contact-details .contact-text ul {
+    list-style: none;
+}
+
+#contact-details .contact-text li {
+    margin: 1rem;
+}
+
+#contact-details .contact-text li i {
+    margin-right: 20px;
+    margin-left: -20px;
+}
+
+#form {
+    padding: 4rem;
+}
+
+#form h2 {
+    opacity: 0.7;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+#form h1 {
+    margin-bottom: 1rem;
+}
+
+#form .form-box {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#form .form-box input {
+    width: 50vw;
+    height: 50px;
+    padding: 1rem 0.5rem;
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+#form .form-box textarea {
+    width: 50vw;
+    padding: 1rem 0.5rem;
+    font-size: 1rem;
+}
+
+#form .form-box button {
+    width: 10vw;
+    padding: 1rem 0.5rem;
+    border-radius: 20px;
+    border: none;
+    background-color: #E3E6F3;
+    color: black;
+    font-size: 1rem;
+    overflow: hidden;
+    transition: 0.5s all ease;
+}
+
+#form .form-box button:hover {
+    text-decoration: underline;
+}
+
+
+/* cart page */
+#cart{
+    padding: 3rem;
+}
+#cart table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+#cart thead{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+#cart thead td{
+    padding: 1rem 0;
+}
+#cart table tbody{
+    text-align: center;
+}
+#cart table tbody td{
+    padding: 1rem 0;
+    white-space: normal;
+}
+#cart table tbody td input{
+    padding: 1rem 0.5rem;
+    font-size: 1rem;
+    text-align: center;
+    max-width: 10vw;
+}
+#cart table tbody img{
+    width: 70px;
+}
+
+#cart .checkout-btn{
+    text-align: center;
+    align-items: center;
+}
+#cart .checkout-btn button{
+    padding: 1rem 0.5rem;
+    border-radius: 20px;
+    margin-top: 2rem;
+    background-color: #e3e6f3;
+    transition: all ease 0.2s   ;
+}
+#cart .checkout-btn button:hover{
+    scale:1.1;
+}
+
+/* media queries */
+@media (min-width:430px) and (max-width:850px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #E3E6F3;
+        opacity: 0.9;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        gap: 20px;
+        transition: 1s all ease;
+    }
+
+    #navbar.active {
+        right: 0px;
+    }
+
+    #mobile {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    #mobile a,
+    #mobile i {
+        font-size: 25px;
+    }
+
+    #close {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        font-size: 24px;
+    }
+
+    #prod-details .small-img-col img {
+        height: 5vh;
+    }
+
+    #about-head {
+        flex-wrap: wrap;
+    }
+
+    #about-head img {
+        width: 100%;
+    }
+
+    #about-head .about-text {
+        width: 90%;
+    }
+
+}
+
+@media (max-width:430px) {
+
+    /* navbar close button code  */
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #E3E6F3;
+        opacity: 0.9;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        gap: 20px;
+        transition: 1s all ease;
+    }
+
+    #navbar.active {
+        right: -100px;
+    }
+
+    #mobile {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    #mobile a,
+    #mobile i {
+        font-size: 25px;
+    }
+
+    #close {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        font-size: 24px;
+    }
+
+    /* responsiveness code */
+    #header {
+        padding: 10px 20px;
+    }
+
+    #hero {
+        padding: 0 20px;
+        background-position: 65%;
+    }
+
+    #feature .fe-box {
+        width: 150px;
+        height: auto;
+        margin: 0 0 15px 0;
+    }
+
+    #banner {
+        padding: 15px;
+    }
+
+    #banner h4 {
+        font-size: 1.5rem;
+    }
+
+    #banner h2 {
+        font-size: 2rem;
+    }
+
+    #banner button {
+        font-size: 1rem;
+    }
+
+    #product1 .pro-container .pro img {
+        height: 200px;
+        width: auto;
+    }
+
+    #product1 .pro-container .pro span {
+        font-size: 15px;
+    }
+
+    #product1 .pro-container .pro h5 {
+        font-size: 20px;
+    }
+
+    #sm-banner .banner-box {
+        min-width: 100px;
+        height: auto;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    /*--------------------------------- sproduct------------------------------------------- */
+    #prod-details {
+        padding: 2rem;
+        flex-direction: column;
+    }
+
+    #prod-details #MainImg {
+        width: 80vw;
+
+    }
+
+    #prod-details .small-img-group {
+        max-width: 80vw;
+
+    }
+
+    #prod-details .small-img-col img {
+        height: 8.5vh;
+    }
+
+    .single-prod-details {
+        width: 80vw;
+    }
+
+    .single-prod-details h6 {
+        margin: 1rem 0;
+    }
+
+    .single-prod-details h4 {
+        margin: 1rem 0;
+    }
+
+    .single-prod-details select {
+        width: 100px;
+    }
+
+    .single-prod-details input {
+        width: 100px;
+    }
+
+    /*--------------------------------- blog------------------------------------------- */
+    #blog .blog-box .blog-img {
+        margin-left: 0px;
+    }
+
+    #blog .blog-box .blog-details {
+        margin-left: 10px;
+    }
+
+    /*--------------------------------- about------------------------------------------- */
+    #about-head {
+        padding: 2rem;
+        flex-wrap: wrap;
+    }
+
+    #about-head img {
+        width: 100%;
+    }
+
+    #about-head .about-text {
+        width: 100%;
+    }
+
+    #about-head .about-text h1 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    #about-head .about-text p {
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    #about-head .about-text a {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+
+    #about-app h1 {
+        font-size: 2rem;
+    }
+
+    #about-app video {
+        width: 100vw;
+        border-radius: 0;
+    }
+
+    /*--------------------------------- contact------------------------------------------- */
+    #contact-details .contact-location iframe {
+        width: 90vw;
+        height: 50vh;
+        align-items: center;
+    }
+
+    #form {
+        padding: 2rem;
+    }
+
+    #form h2 {
+        font-size: 1rem;
+    }
+    
+    #form h1{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    
+    #form .form-box input {
+        width: 60vw;
+        height: 40px;
+    }
+    
+    #form .form-box textarea {
+        width: 60vw;
+    }
+    
+    #form .form-box button {
+        width: 40vw;
+    }
+
+    /*--------------------------------- cart------------------------------------------- */
+    #cart{
+        padding: 20px 0;
+    }
+
+    #cart table tbody td{
+        padding: 0.5rem 0;
+        font-size: 0.8rem;
+    }
+
+    #cart table tbody img{
+        width: 60px;
+    }
+}
